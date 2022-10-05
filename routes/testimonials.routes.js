@@ -2,7 +2,7 @@
 const express = require('express');
 const router = express.Router();
 const db = require('../db');
-const uuidv4 = require('uuid');
+const uuid = require('uuid').v4;
 
 // get all testimonials
 router.route('/testimonials').get((req, res) => {
