@@ -10,5 +10,7 @@
   },
   "scripts": {
     "start": "nodemon server.js"
-  }
+  },
+  "repository": "git@github.com:MarcinBieniek/REST_API-excercise.git",
+  "author": "Marcin Bieniek <marcingim@gmail.com>"
 }
