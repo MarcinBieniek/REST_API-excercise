@@ -9,9 +9,9 @@
     "uuid": "^9.0.0"
   },
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "nodemon server.js",
+    "build": "cd client && yarn install && yarn build"
   },
   "repository": "git@github.com:MarcinBieniek/REST_API-excercise.git",
-  "author": "Marcin Bieniek <marcingim@gmail.com>",
-  "build": "cd client && yarn install && yarn build"
+  "author": "Marcin Bieniek <marcingim@gmail.com>"
 }
